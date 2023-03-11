@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Solitreo&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    background: black;
+}
+.header .s-media{
+    width: 100%; height: 40px;
+    background: #655DBB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .s-media img{
+    width: 20px; height: auto;
+    margin: 0px 10px;
+}
+
+.header .s-title{
+    display: flex;
+    justify-content: space-around;
+}
+.header .s-title img{
+    height: 160px; width: auto;
+}
+
+.header .s-title .title{
+    color: #fff;
+    font-size: 50px;
+    padding-top: 50px;
+}
+/* ........................ section 1 */
+.sec1{
+    width: 100%; height: 500px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.sec1 .container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sec1 .container video{
+    width: 620px; height: auto;
+}
+
+.sec1 .form h3{
+    margin: 16px;
+    font-size: 24px;
+}
+.sec1 .form input{
+    width: 80%;
+    font-size: 24px;
+    padding: 0px 12px;
+    margin: 16px;
+}
+.sec1 .form .btn{
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    color: #fff;
+    background: #655DBB;
+    border: none;
+}
+
+/* ........................ section 2 */
+.sec2{
+    width: 100%; height: 500px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.sec2 .container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sec2 .image{
+    height: 350px; width: auto;
+}
+
+.sec2 .desc{
+    padding: 0px 200px 0px 0px;
+}
+.sec2 .desc h3{
+    margin-bottom: 24px;
+    font-size: 42px;
+}
+.sec2 .desc p{
+    margin-bottom: 20px;
+    font-size: 19px;
+    line-height: 40px;
+}
+/* ........................ section 2 */
+.sec3{
+    width: 100%; height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: #655DBB;
+    color: #fff;
+}
+
+.sec3 .container{
+    width: 80%;
+    margin: 0px auto;
+}
+.sec3 .container .smallTitle{
+    font-size: 24px;
+}
+.sec3 .container .cssRed{
+    color: yellow;
+    margin: 0px 18px;
+    text-decoration: line-through;
+}
+.sec3 .container .cssGreen{
+    color: rgb(40, 198, 255);
+    margin: 0px 18px;
+}
+.sec3 .container .timer{
+    width: 450px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sec3 .container .timer .cercle{
+    width: 100px; height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.sec3 .container .timer .cercle p{
+    color: #655DBB;
+    font-size: 36px;
+    margin: 0px;
+    font-weight: 700;
+}
+.sec3 .container .timer .cercle .time{
+    color: #655DBB;
+    font-size: 12px;
+}
+
+.sec4{
+    width: 100%; height: 40px;
+    padding-top: 12px;
+    text-align: center;
+    font-size: 14px;
+    background: #453e94;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .header .s-media{
+        padding-top: 10px;
+    }
+
+    .header .s-title img{
+        height: 100px; width: auto;
+    }
+    
+    .header .s-title .title{
+        font-size: 20px;
+        padding-top: 40px;
+    }
+    .header{
+        height: 140px;
+    }
+    /* ........................... sec1 */
+
+    .sec1 .container{
+        width: 94%;
+        display: inline-block;
+        padding-top: 90px;
+    }
+    .sec1 .container video{
+        width: 100%; height: auto;
+    }
+
+    /* ........................ section 2 */
+
+    .sec2 .container{
+        width: 94%;
+        flex-direction: column-reverse;
+        margin-top: 500px;
+    }
+    .sec2 .image{
+        width: 100%;height: auto; 
+    }
+
+    .sec2 .desc{
+        margin-top: 40px;
+        padding: 0px 10px;
+    }
+    .sec2 .desc h3{
+        margin-bottom: 24px;
+        font-size: 42px;
+    }
+    .sec2 .desc p{
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    /* ........................ section 2 */
+.sec3{
+    margin-top: 450px;
+}
+.sec3 .container{
+    width: 94%;
+    margin: 0px auto;
+}
+.sec3 .container .smallTitle{
+    font-size: 22px;
+}
+.sec3 .container .timer{
+    width: 60%;
+}
+.sec3 .container .timer .cercle{
+    width: 60px; height: 60px;
+    padding: 5px;
+}
+.sec3 .container .timer .cercle p{
+    font-size: 26px;
+}
+.sec3 .container .timer .cercle .time{
+    font-size: 8px;
+}
+
+.sec4{
+    width: 100%; height: 40px;
+    padding-top: 12px;
+    text-align: center;
+    font-size: 14px;
+    background: #453e94;
+    color: #fff;
+}
+}
+
+
+
+
